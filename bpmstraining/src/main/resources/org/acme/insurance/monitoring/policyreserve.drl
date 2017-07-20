@@ -45,6 +45,6 @@ rule "withinThreshold"
     then
         //actions
         policyAverage.append("Average Price under the threashold (" + a.intValue() + ")");
-		System.out.println("fired rule " + kcontext.getRule().getName());
+		System.out.println("fired rule: " + kcontext.getRule().getName());
 
 end
